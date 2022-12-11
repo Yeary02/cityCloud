@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <!-- <script src="d3CheckBox.js"></script> -->
+</head>
+<body>
+    <div id="main">
+        <p>Average Annual Temperature and Precipitation Comparison in 7 US Cities</p>
+        <svg width="800" height="600"> 
+            <!-- style="border: 1px solid #777; -->
+        </svg>
+
+        <fieldset style="width:773px">
+            <legend>Level of Rain:</legend>
+        
+            <div>
+              <input type="checkbox" id="P1" name="drizzling" checked oninput="doThings(event)">
+              <label class="drizzling" for="drizzling">Drizzling</label>
+            </div>
+        
+            <div>
+              <input type="checkbox" id="P2" name="slight" checked oninput="doThings(event)">
+              <label class="slight" for="slight">Slight</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="P3" name="medium" checked oninput="doThings(event)">
+                <label class="medium" for="medium">Medium</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="P4" name="heavy" checked oninput="doThings(event)">
+                <label class="heavy" for="heavy">Heavy</label>
+            </div>
+        </fieldset>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="./main.js"></script>
+</html>

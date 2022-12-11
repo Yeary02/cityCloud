@@ -1,0 +1,35 @@
+svg, fieldset {
+    display: block;
+    margin: auto;
+}
+
+p,
+label {
+    font: 1rem 'Roboto', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+.drizzling {
+    font-weight: 100;
+}
+
+.slight {
+    font-weight: 300;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+input {
+    margin: .4rem;
+}
